@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+</style>
+<body>
+
+    <form action="" method="get">
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" placeholder="Your name">
+    <label style="display: block; " for="txt_username">Surname</label>
+    <input type="text" name="txt_surname" id="txt_surname" placeholder="Your surname">
+    <label style="display: block; " for="txt_email">Email</label>
+    <input type="email" name="txt_email" id="txt_email" >
+    <label style="display: block; " for="txt_password">Password</label>
+    <input type="password" name="txt_password" id="txt_password" >
+    <label style="display: block; " for="txt_age">Age</label>
+    <input type="number" name="txt_age" id="txt_age" >
+    <label style="display: block; " for="txt_date">Date</label>
+    <input type="date" name="txt_date" id="txt_date" >
+    <label style="display: block; " for="txt_gender">Gender</label>
+    <label for="txt_gender">Male</label>
+    <input type="radio" name="txt_gender" id="txt_gender" value="Male" >
+    <label for="txt_gender">Female</label>
+    <input type="radio" name="txt_gender" id="txt_gender" value="Female" >
+    <label for="txt_gender">Other</label>
+    <input type="radio" name="txt_gender" id="txt_gender" value="Other" ><br>
+
+    <label id="label_baslik" style="display: block; margin-top: 10px;" for="txt_hobies" >Hobies</label>
+    <input type="checkbox" name="txt_art" id="txt_art" value="Art" >
+    <label for="txt_art">Art</label>
+    <input type="checkbox" name="txt_music" id="txt_music" value="Music" >
+    <label for="txt_music">Music</label>
+    <input type="checkbox" name="txt_technology" id="txt_technology" value="Technology" >
+    <label for="txt_technology">Technology</label><br><br>
+
+    <label for="txt_city" >City</label>
+<select name="city" id="city">
+<option value="Ankara">Ankara</option>
+<option value="Antalya">Antalya</option>
+<option value="İzmir">İzmir</option>
+<option value="İstanbul">İstanbul</option>
+</select><br><br>
+<textarea name="" id="" cols="50" rows="10" style="resize:none" placeholder="Your message"></textarea><br>
+<input type="submit" value="Gönder">
+<input type="reset" value="Temizle">
+</form>
+
+
+</body>
+</html>
